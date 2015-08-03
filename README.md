@@ -1,20 +1,22 @@
-scala-workshop
-==============
+# scala-workshop
+Exercises for Scala workshop.
 
-1. start the sbt console with ./sbt
+## Usage
+Get the source code
 
-2. In the sbt console, generate the configuration for your IDE:
-- for eclipse: 'eclipse with-source=true'
-- for IDEA: 'gen-idea'
+```sh
+git clone git@github.com:jehrhardt/scala-workshop.git
+cd scala-workshop
+```
 
-In Intellij, if you have an error concerning a shared output path, check if there is no `project` folder in the `macros` project. If there is one, just remove it.
+Run SBT from your Terminal
 
-3. wait to have downloaded the whole internet
+```sh
+./sbt
+```
 
-4. open the project in your IDE
+Run the tests in the SBT console
 
-5. In the sbt console, compile the project with 'compile' 
-
-6. In the sbt console, let the tests run with 'test'
-No surprise, the tests are not successful.
-
+```sh
+test
+```
