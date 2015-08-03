@@ -7,9 +7,7 @@ organization := "com.yanns"
 scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
-  "joda-time" % "joda-time" % "2.5",
-  "org.joda" % "joda-convert" % "1.7",
-  "org.scala-lang.modules" %% "scala-async" % "0.9.2",
+  "org.scala-lang.modules" %% "scala-async" % "0.9.5",
   "com.typesafe.akka" %% "akka-actor" % "2.3.12"
 )
 
